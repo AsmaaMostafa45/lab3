@@ -86,31 +86,6 @@
 </body>
 </html>
 
-<!-- <?php
-
-echo "<h3>Your given values are as :</h3> <br>";
-if(!empty($_REQUEST["name"]))  {
-echo "Name :" . $_REQUEST['name']. "<br>";
-}
-
-if(!empty($_REQUEST["email"]))  {
-echo "E-mail :" . $_REQUEST['email']. "<br>";
-}
-if(!empty($_REQUEST["group"]))  {
-echo "Group # :" . $_REQUEST['group']. "<br>";
-}
-if(!empty($_REQUEST["details"]))  {
-echo "Class details :" . $_REQUEST['details']. "<br>";
-}
-if(!empty($_REQUEST["gender"]))  {
-echo "Gender :" . $_REQUEST['gender']. "<br>";
-}
-if(!empty($_REQUEST["courses"]))  {
-echo "Your courses are :" ;
-foreach ($_REQUEST['courses'] as $selectedOption)
-  echo $selectedOption;
-}
-?> -->
 
 <?php
 
