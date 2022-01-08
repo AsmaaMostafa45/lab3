@@ -1,0 +1,12 @@
+require() vs require_once()
+-----------------------------
+
+The require_once() statement is identical to require() except PHP will check if the file has already been included, and if so, not include (require) it again.
+
+include() vs include_once()
+--------------------------------
+
+The include_once() statement includes and evaluates the specified file during the execution of the script. This is a behavior similar to the include() statement, with the only difference being that if the code from a file has already been included, it will not be included again. 
+
+to avoid getting an error, it would just be safe to use include_once() instead of include() function in your php code. 
+if you know you are messy with your PHP code, then its safer to use the include_once(), but if you keep track of all your code, then its ok to use the include() function. 
